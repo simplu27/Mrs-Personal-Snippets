@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+# Disabling Directory Browsing
+Options All -Indexes
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apache-directory-browsing</tabTrigger>
+	<description>Disable directory browsing in .htaccess</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

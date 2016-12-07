@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/* Basic clearfix */
+.clearfix:after,
+.cf:after {
+	content: ".";  display: block;  
+	height: 0;  clear: both;  visibility: hidden;
+}  
+.clearfix, .cf {display: inline-block;}
+* html .clearfix, * html .cf { height: 1%;}  
+.clearfix, .cf {display: block;}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css-clearfix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.css</scope> -->
+	<description>Basic clearfix</description>
+</snippet>

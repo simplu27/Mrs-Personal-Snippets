@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://dummyimage.com/${1:900}x${2:400}/7a7a7a/ffffff.jpg" alt="${3:Alternative Text}"/>
+${4}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fake-img-src</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

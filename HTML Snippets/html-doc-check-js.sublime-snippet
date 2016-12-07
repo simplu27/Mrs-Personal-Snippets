@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<title>${1:Document}</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script type="text/javascript">
+	// to identify if javascript is active
+	var tagHtml = document.getElementsByTagName("html")[0];
+	tagHtml.className = tagHtml.className.replace('no-js', 'js');
+</script>
+</head>
+<body>
+	${2:Content}
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){  
+		
+	});  //end ready
+</script>
+</body>
+</html>
+]]></content>
+	<tabTrigger>html-doc-check-js</tabTrigger>
+  <description>HTML doc check js is on</description>
+</snippet>

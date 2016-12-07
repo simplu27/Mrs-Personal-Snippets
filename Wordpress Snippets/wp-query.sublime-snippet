@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+	// New custom WP Wuery
+	<?php
+		\$args = array(
+		'post_type' => '${1:post_type}',
+		'posts_per_page' => ${2:pr_page},
+		);
+		\$${3:query_name} = new WP_Query( \$args );
+	?>
+
+	<?php if ( \$${3:query_name}->have_posts() ) : ?>
+		<?php while ( \$${3:query_name}->have_posts() ) : \$${3:query_name}->the_post(); ?>
+
+			<?php the_content(); ?>
+			
+		<?php endwhile; ?>
+	<?php endif; ?>
+	// END Custom WP Query
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp-query</tabTrigger>
+	<description>WP Query Custom Loop</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

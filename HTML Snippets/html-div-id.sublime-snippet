@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div id="${1:myid}">
+	${2:div-content}
+</div><!-- / ${1:myid} -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-div-id</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>div-id with comment</description>
+</snippet>

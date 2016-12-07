@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php  
+	if ( post_type_exists( '${1:books}' ) ) {
+	   echo '<p>The <i>${1:books}</i> post type exists</p>';
+	} else {
+		echo '<p>The <i>${1:books}</i> post type is not set!</p>';
+	}
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp-post_type_exist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Check if post type exist</description>
+</snippet>

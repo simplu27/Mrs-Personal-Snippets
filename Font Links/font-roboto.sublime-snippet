@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,900' rel='stylesheet' type='text/css'>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>font-roboto</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>Roboto 100,300,400,900</description>
+</snippet>

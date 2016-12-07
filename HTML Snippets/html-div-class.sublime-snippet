@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:clasa}">
+	${2:stuff}
+</div><!-- ${1:clasa} -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-div-class</tabTrigger>
+	<description>HTML .div class + comment</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

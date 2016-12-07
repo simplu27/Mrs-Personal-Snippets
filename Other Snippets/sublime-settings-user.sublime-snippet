@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+{
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/User/SublimeLinter/GitHub (SL).tmTheme",
+    "fade_fold_buttons": false,
+    "font_size": 11,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "CSS",
+        "Vintage"
+    ],
+    "soda_classic_tabs": true,
+    "theme": "SoDaReloaded Light.sublime-theme",
+    "word_wrap": true
+}
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sublime-settings-user</tabTrigger>
+	<description>Sublime Settings User</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+</snippet>

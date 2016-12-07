@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+[
+    { "keys": ["alt+p"], "command": "wrap_lines" },
+
+    {
+        "keys": [
+            "alt+q"
+        ], 
+        "args": {
+            "action": "expand_abbreviation"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.expand_abbreviation"
+            }
+        ]
+    }
+]
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sublime-key-bindings-user</tabTrigger>
+	<description>Sublime Key User</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+</snippet>

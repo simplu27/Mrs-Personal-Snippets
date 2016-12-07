@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<meta name="${1:description}" content="${2:Page Description}">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-meta</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>HTML meta tag</description>
+</snippet>

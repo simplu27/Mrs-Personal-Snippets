@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript">
+	// First, add to html a class .no-js
+	// <html class="no-js" lang="en">
+	// If js is on, replace class .no-js with .js
+	// identify if javascript is active
+	var tagHtml = document.getElementsByTagName("html")[0];
+	tagHtml.className = tagHtml.className.replace('no-js', 'js');
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-on-off</tabTrigger>
+	<description>.no-js to .js script</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

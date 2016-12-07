@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+// config.php
+
+// Include directory
+// Return: home/mysite/public_html/_inc/
+define("INCDIR", $_SERVER['DOCUMENT_ROOT']."/_inc/");
+
+// CSS Directory
+// Return: http://www.mysite.com/_css/
+define("CSS", "http://".$_SERVER['HTTP_HOST']."/_css/");
+
+// JS Directory
+// Return: http://www.mysite.com/_js/
+define("JS", "http://".$_SERVER['HTTP_HOST']."/_js/");
+
+// Images Directory
+// Return: http://www.mysite.com/_images/
+define("IMAGES", "http://".$_SERVER['HTTP_HOST']."/_images/");
+
+// ROOT Site: for links
+// Return: http://www.mysite.com/
+define("ROOT", "http://".$_SERVER['HTTP_HOST']."/");
+
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>php-config-include</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, text.html, text.txt</scope>
+</snippet>

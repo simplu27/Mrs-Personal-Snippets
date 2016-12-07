@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php echo isset(${1:\$pageDescription}) ? ${1:\$pageDescription} : "${2:No description}"; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>php-ternary-meta-tag</tabTrigger>
+	<description>PHP Ternary meta tag</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

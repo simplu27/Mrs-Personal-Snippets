@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:classa}">
+	<div class="${2:classa}">
+		<div class="${3:classa}">
+			${4:stuff}
+		</div><!-- ${3:classa} -->
+	</div><!-- ${2:classa} -->
+</div><!-- ${1:classa} -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>div3</tabTrigger>
+	<description>div.class 3 nivele</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

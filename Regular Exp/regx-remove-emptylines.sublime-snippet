@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+^\n|^\s+\$
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>regx-remove-emptylines</tabTrigger>
+	<description>Remove empty lines reg exp</description>
+	<!-- 
+		CTRL + H
+		Select Regular Expresion
+		Replace: ^\n|^\s+\$ with Blank 
+	-->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

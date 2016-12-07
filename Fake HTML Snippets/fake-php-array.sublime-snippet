@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+$produse = array();
+
+$produse[] = array(
+	"nume" => "Produsul Unu",
+	"pret" => 340,
+	"cantitate" => 5,
+	);
+
+$produse[] = array(
+	"nume" => "Produsul Doi",
+	"pret" => 890,
+	"cantitate" => 23,
+	);
+
+$produse[] = array(
+	"nume" => "Produsul Trei",
+	"pret" => 980,
+	"cantitate" => 59,
+	);
+
+$produse[] = array(	
+	"nume" => "Produsul Patru",
+	"pret" => 33,
+	"cantitate" => 1,
+	);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fake-php-array</tabTrigger>
+	<description>Fake PHP array produse</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

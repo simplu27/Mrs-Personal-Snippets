@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+
+# Host: ${1:exemplu.dev}
+# Path: ${2:C:\wamp\www\exemplu.dev}
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@${1:exemplu.dev}
+    ServerName ${1:exemplu.dev}
+    ServerAlias www.${1:exemplu.dev}
+    DocumentRoot "${2:C:\wamp\www\exemplu.dev}"
+    <Directory  "${2:C:\wamp\www\exemplu.dev}">
+        # Types of directives that are allowed in .htaccess files
+        AllowOverride All
+        # This allows connections that originate from the local host
+        # Required, to work
+        Require local
+    </Directory>
+    ErrorLog "logs/${1:exemplu.dev}-error.log"
+    CustomLog "logs/${1:exemplu.dev}-access.log" common
+</VirtualHost>
+
+# Remember to change C:\System32\driver\etc\host
+
+# 127.0.0.1	${1:exemplu.dev}
+# 127.0.0.1	www.${1:exemplu.dev}
+# ::1 		${1:exemplu.dev}
+# ::1 		www.${1:exemplu.dev}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wamp-vhost</tabTrigger>
+	<description>New vhost in httpd-vhost.conf</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

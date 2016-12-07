@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<snippet>
+	<content><![CDATA[
+${1:Snippet Content}
+]]$NOT_DEFINED></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>${2:tabTrigger}</tabTrigger>
+	<description>${3:Snippet Description}</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+</snippet>
+
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snippet-template</tabTrigger>
+	<description>Snippet Template</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+</snippet>

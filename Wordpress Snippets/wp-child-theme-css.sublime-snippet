@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+
+/*
+ Theme Name:   ${1:Child Theme Name}
+ Description:  ${2:Theme Description}
+ Author:       ${3:Author Name}
+ Author URI:   http://${4:example.com}
+ Template:     ${5:parenttheme (name of the folder of parent theme)}
+ Version:      ${6:0.1}
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         ${7:light, dark, two-columns, right-sidebar, responsive-layout}
+ Text Domain:  ${5}-child
+*/
+
+@import url("../${5}/style.css");
+
+/*
+	http://codex.wordpress.org/Child_Themes
+	Best practices: not import url, enqueue style in functions.php
+	In functions.php:
+	add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+		function theme_enqueue_styles() {
+	    	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+		}
+*/
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp-child-theme-css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Basic CSS for a child theme in Wordpress</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="container">
+	<div class="center">
+		<div class="row">
+			<div class="unit-${1:100}">
+				${2:content}
+			</div><!-- unit -->
+		</div><!-- row -->
+	</div><!-- center -->
+</div><!-- container -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-full-container</tabTrigger>
+	<description>.container>.center>.row>.unit-</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

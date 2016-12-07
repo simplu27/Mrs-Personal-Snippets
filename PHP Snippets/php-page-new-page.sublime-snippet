@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<?php
+// include in fiecare pagina configuratia siteului
+include_once \$_SERVER['DOCUMENT_ROOT'].'/_inc/config.php';
+
+// Per/Page Variabiles
+// ${1:home}Page
+
+\$pageId = '${1:home}Page';
+\$pageTitle = '${2:Page Title}';
+\$pageDescription = '${3:Page Desc}';
+\$pageKey = '${4:Page Key}';
+
+include_once (INC.'header.php');
+ ?>
+
+	${5:Content}
+
+<?php include_once (INC.'footer.php'); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>php-page-new-page</tabTrigger>
+	<description>PHP vars+header+footer</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

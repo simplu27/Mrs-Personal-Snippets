@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+echo "<pre>";
+	var_dump(\$${1});
+echo "</pre>";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>php-echo-pre-var_dump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>PHP Echo pre var_dump</description>
+</snippet>
