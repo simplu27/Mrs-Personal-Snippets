@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700|Roboto+Slab:400,700" rel="stylesheet">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>font-roboto-slab-condensed</tabTrigger>
+	<description>Roboto Slab si Roboto Condensed Google Fonts</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

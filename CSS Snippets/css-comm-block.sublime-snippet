@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/*--------------------------------------------------------------
+${1:Block comment here}
+--------------------------------------------------------------*/
+
+${2:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css-comm-block</tabTrigger>
+	<description>CSS Block Comment 3 lines</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
