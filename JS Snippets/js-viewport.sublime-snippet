@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+	// Arata dimensiunea ferestrei, in px, in coltul stanga jos
+	// Source: https://gist.github.com/bohman/1351439
+	function showViewPortSize(display) {
+		if(display) {
+			var height = jQuery(window).height();
+			var width = jQuery(window).width();
+			jQuery('body').prepend('<div id="viewportsize" style="z-index:9999;position:fixed;bottom:10px;left:10px;color:#fff;background:rgba(0,0,0,.3);padding:4px 8px">'+ width+' x '+height+'</div>');
+			jQuery(window).resize(function() {
+				height = jQuery(window).height();
+				width = jQuery(window).width();
+				jQuery('#viewportsize').html(width+' x '+height);
+			});
+		}
+	}
+	// Seteaza False, ca sa nu arate
+	showViewPortSize(true);
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-viewport</tabTrigger>
+	<description>Arata dimensiunea ferestrei in px</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
