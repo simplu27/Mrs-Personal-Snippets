@@ -21,8 +21,8 @@
 </script>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>js-viewport</tabTrigger>
-	<description>Arata dimensiunea ferestrei in px</description>
+	<tabTrigger>js-viewport-show</tabTrigger>
+	<description>Show viewport dimension</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
