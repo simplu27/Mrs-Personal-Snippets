@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
-
 <div id="${1:id}">
 	${2:stuff}
 </div><!-- #${1:id} -->
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>div-id</tabTrigger>

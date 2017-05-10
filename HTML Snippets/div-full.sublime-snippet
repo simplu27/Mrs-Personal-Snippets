@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-
 <div class="container">
 	<div class="wrap">
 		<div class="row">
@@ -8,7 +7,6 @@
 		</div><!-- row -->
 	</div><!-- wrap -->
 </div><!-- container -->
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>div-full</tabTrigger>
