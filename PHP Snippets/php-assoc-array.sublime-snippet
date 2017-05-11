@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-'${1:key}' => '${2:val}';
+'${1:key}' => '${2:val}',
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>arasoc</tabTrigger>

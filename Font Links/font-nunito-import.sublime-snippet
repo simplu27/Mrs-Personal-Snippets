@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<style>
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700');
+</style> 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>font-nunito-import</tabTrigger>
+	<description>Nunito Google Font Import 300, 400, 700</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, text.html</scope> -->
+</snippet>
