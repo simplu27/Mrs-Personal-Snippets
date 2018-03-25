@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400,500,600,700" rel="stylesheet"> 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>font-encode-sans</tabTrigger>
+	<description>Encode Sans 300,400,500,600,700 Google Fonts</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
