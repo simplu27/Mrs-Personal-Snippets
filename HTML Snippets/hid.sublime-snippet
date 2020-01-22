@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<h${1:1} id="${2:test-id}">${3:stuff}</h${1:1}>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hi</tabTrigger>
+	<description>header id h1.id</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
