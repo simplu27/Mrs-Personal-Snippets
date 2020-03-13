@@ -1,14 +1,16 @@
 <snippet>
 	<content><![CDATA[
 <?php
-
-	${1:stuff}
-
+/*
+	* ${1:Comment}
+*/
 ?>
+
+${2:Content}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>php2</tabTrigger>
+	<tabTrigger>phpc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
-	<description>PHP Code with space</description>
+	<description>PHP Start with Comment</description>
 </snippet>

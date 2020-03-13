@@ -1,14 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<?php
-
-	${1:stuff}
-
-?>
+<?php ${1:inline} ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>php2</tabTrigger>
+	<tabTrigger>php0</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
-	<description>PHP Code with space</description>
+	<description>PHP Inline Block</description>
 </snippet>
