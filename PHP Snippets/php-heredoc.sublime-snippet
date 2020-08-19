@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?php
+\$${1:variable} = <<<EOD
+${2:html-here}
+EOD;
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>php-heredoc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>PHP Heredoc Variable</description>
+</snippet>
