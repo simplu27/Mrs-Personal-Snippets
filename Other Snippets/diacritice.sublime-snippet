@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+ă
+â
+î
+ș
+ț
+
+Ă
+Â
+Î
+Ș
+Ț
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>diacritice-litere</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Diacritice Romana Litere</description>
+</snippet>
