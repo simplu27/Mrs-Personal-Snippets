@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Activation check windows in cmd.exe
+slmgr /xpr
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>win-activation-check</tabTrigger>
+	<description>Verifica data de activare in cmd.exe</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
