@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:.text-gradient} {
+	background: linear-gradient(to right, red, blue);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css-text-gradient</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Text Gradient</description>
+</snippet>
