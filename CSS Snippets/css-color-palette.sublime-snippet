@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+/* https://loading.io/color/random/ */
+
+$palette-color1: #fff465;
+$palette-color2: #ffd545;
+$palette-color3: #f0b721;
+$palette-color4: #cf9900;
+$palette-color5: #ae7d00;
+$palette-color6: #8e6100;
+$palette-color7: #704700;
+$palette-color8: #552e00;
+$palette-color9: #3e1600;
+
+$palette-color1: #b1ff30;
+$palette-color2: #8ff900;
+$palette-color3: #6dd900;
+$palette-color4: #49b900;
+$palette-color5: #1b9b00;
+$palette-color6: #007d00;
+$palette-color7: #006000;
+$palette-color8: #004400;
+$palette-color9: #002c00;
+$palette-color10: #001c00;
+
+$palette-color1: #ffd172;
+$palette-color2: #ffb154;
+$palette-color3: #ff9236;
+$palette-color4: #ff7413;
+$palette-color5: #e35500;
+$palette-color6: #bf3600;
+$palette-color7: #9d0d00;
+$palette-color8: #7d0000;
+$palette-color9: #5f0000;
+$palette-color10: #470000;
+
+$palette-color1: #ffe874;
+$palette-color2: #ffc956;
+$palette-color3: #ffaa36;
+$palette-color4: #e38d10;
+$palette-color5: #c17000;
+$palette-color6: #a05400;
+$palette-color7: #803900;
+$palette-color8: #631f00;
+$palette-color9: #490200;
+$palette-color10: #380000;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css-color-palette</tabTrigger>
+	<description>CSS Color Palette loading.io</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
