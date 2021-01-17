@@ -2,6 +2,13 @@
 	<content><![CDATA[
 /* https://loading.io/color/random/ */
 
+$palette-color1: #febd17;
+
+$palette-color1: #fba919;
+$palette-color2: #463014;
+
+$palette-color1: #d51007;
+
 $palette-color1: #fff465;
 $palette-color2: #ffd545;
 $palette-color3: #f0b721;
