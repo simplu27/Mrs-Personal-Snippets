@@ -1,16 +1,7 @@
 <snippet>
 	<content><![CDATA[
-ă
-â
-î
-ș
-ț
-
-Ă
-Â
-Î
-Ș
-Ț
+ă â î ș ț
+Ă Â Î Ș Ț
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>diacritice-litere</tabTrigger>
