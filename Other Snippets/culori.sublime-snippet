@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<!-- https://defonic.com/ -->
+#fdc96c
+#961f21
+#381313
+#ba3924
+
+
+<!-- http://colormind.io/ -->
+#6A6269
+#A9A09E
+#E4DBD1
+#FCFBF7
+#EAEBE9
+
+
+box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.43), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.43), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+
+/* CSS HEX */
+--dark-cornflower-blue: #003f91ff;
+--dodger-blue: #0c95f7ff;
+--ghost-white: #fbfbffff;
+--chrome-yellow: #f5a105ff;
+--rufous: #a60600ff;
+
+/* SCSS RGB */
+--dark-cornflower-blue: rgba(0, 63, 145, 1);
+--dodger-blue: rgba(12, 149, 247, 1);
+--ghost-white: rgba(251, 251, 255, 1);
+--chrome-yellow: rgba(245, 161, 5, 1);
+--rufous: rgba(166, 6, 0, 1);
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>culori-hex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Culori Hex</description>
+</snippet>
