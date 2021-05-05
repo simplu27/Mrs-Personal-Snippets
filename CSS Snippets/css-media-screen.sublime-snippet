@@ -1,14 +1,15 @@
 <snippet>
 	<content><![CDATA[
-@media screen and (max-width: ${1:640px}) {
+@media screen and (max-width: ${1:640}px) {
 
+	/* max-width: ${1:640}px */
 	${2}
 
-} /* ${1:640px} media end */
+} /* ${1:640}px media end */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>css-media</tabTrigger>
+	<tabTrigger>media-css</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
-	<description>@media screen 640px</description>
+	<description>css media screen max-width</description>
 </snippet>
