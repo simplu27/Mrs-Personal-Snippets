@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-transition: all 0.5s ease 0s;
+transition: all .3s ease-in-out 0s;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>css-transition</tabTrigger>
+	<tabTrigger>transition-css</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 	<description>CSS Transition all</description>
