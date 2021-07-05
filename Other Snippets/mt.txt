@@ -1,0 +1,71 @@
+## Continut prezent pe fiecare pagina din site
+
+Pe toate paginile, vor exista un Header (partea de sus a siteului) si un Footer (partea de jos a siteului). Acestea sunt aproximativ identice (pot fi customizate informatiile prezentate, daca pagina o cere), indiferent de pagina.
+
+Header-ul va contine logoul in stanga si meniul de navigare in dreapta. Meniul va fi afisat complet pe Desktop si sub forma de iconita meniu (3 linii orizontale) pe tableta si smartphone. Meniul va fi afisat doar cand se da click pe el.
+
+###Meniul va contine paginile principale ale siteului:
+    - Prima pagina (Home), ca referinta pentru pagina parincipala.
+    - Produse (unde se vor afisa categoriile principale de produse expuse pe site).
+    - Service (pagina cu informatii despre Service Centrale Termice)
+    - Contact (informatii de contact, localizare, program).
+
+###Footer-ul va contine 4 coloane:
+    1. Logo-ul si informatii despre activitatea principala a firmei.
+    2. Meniul complet de navigare (prezent in format text si complet, accesibil de pe toate dispozitivele).
+    3. Programul de lucru pentru magazin si Service
+    4. Informatii rapide de contact (Telefoane magazin si service), link catre harta, eventual email.
+
+    In partea cea mai de jos a site-ului, pe langa datele de identificare ale firmei, vor fi prezentate si link-uri catre urmatoarele pagini:
+    - Link catre pagina de Termeni si conditii de utilizare a sitelui
+    - Link catre pagina cu Politica privind Cookies
+    - Link catre site-ul ANPC (Protectia Consumatoului). 
+    - Aici se pot prezenta si iconite catre retele sociale, daca se doreste (Facebook, YouTube, etc.)
+
+
+
+
+#Continutul paginilor site-ului
+    Pagini principale:
+        - Prima pagina (pagina mixta, continut static + continut dinamic)
+        - Produse (pagina cu continut dinamic)
+        - Service
+        - Contact
+    Pagini secundare:
+        - Termeni si conditii
+        - Politica privind Cookies
+
+## Detalii pentru fiecare pagina in parte:
+
+### 1. Prima pagina. Se preteaza ca un sumar pentru tot continutul sitelui.
+    a) Hero Image
+        - Imagine mare cu cladirea firmei
+        - Deasupra imaginii, un titlu din care sa reiasa obiectul de activitate al firmei.
+        - Butoane catre pagina de contact sau promotii, service, etc (max 2 butoane).
+    b) O sectiune dinamica (se actualizeaza singura) unde vor aparea automat ultimele produse introduse in categoria produse.
+    Fiecare produs va contine o imagine reprezentativa si un titlu, ambele elemente fiind link catre pagina respectivului produs. Numarul produselor care apare pe prima pagina poate fi customizat (de regula se afiseaza intre 6 si 9 produse, ca multiplu de 3 daca sunt afisate 3 coloane pe pagina) sau 6-10 produse, daca sunt afisate cate 2 coloane pe pagina.
+    La sfarsitul sectiunii va fi un buton cu mesajul "Vezi toate produsele" si cu link catre pagina de Produse.
+    c) Service. O sectiune care cuprinde o imagine generica pentru Service, un titlu, o scurta descriere a serviciului si un buton catre pagina de Service.
+    d) Se poate adauga o sectiune "Call to action", cu un titlu sau un indemn. De exemplu: Suna-ne! Si un buton care contine numarul de telefon. In cazul in care ultilizatorul este pe mobil se deschide automat aplicatia de telefonie, cu numarul afisat format.
+
+
+
+### 2. Produse.
+    O arhiva cu toate produsele introduse pe site, in ordinea invers cronologica (produsele introduse recent apar primele, cele mai vechi apar ultimele).
+
+    Pagina va contine intre 12-24 de produse si va avea un mod de prezentare similar celui de pe prima pagina (imagine reprezentativa pentru produs, titlu produs si link catre pagina produsului). Teoretic numarul de produse poate fi nelimitat pe o pagina, dar trebuie tinut cont ca nu numar mare de produse influenteaza viteza de incarcare a paginii, cu efecte negative pentru SEO (Search Engine Optimization, cautarea in Google).
+    Daca se opteaza pentru 12 produse pe pagina si se introduc mai mult de 12 produse, in partea de jos a sectiunii va aparea automat un sistem de navigare in pagini (Pagina 1, pagina 2, etc.).
+
+    Pagina cu produse va fi una dinamica, in sensul ca informatiile prezentate in aceasta pagina vor fi actualizate automat in functie de produsele introduse. Cand se introduce un produs, acesta trebuie sa aiba o imagine reprezentativa si un titlu. Imaginea si titlul vor fi actualizate automat pe pagina de produse si pe prima pagina in momentul publicarii produsului.
+
+
+### 3. Service centrale termice. Pagina cu informatii despre Service (preluare continut de pe site-ul actual sau continut nou furnizat).
+
+### 4. Contact. Pagina de contact va contine urmatoarele elemente:
+    - Program de lucru
+    - Informatii de contact (pentru magazin si service): telefon, adresa de email
+    - Locatie, adresa (eventual indicatii pentru Waze sau GoogleMap).
+    - O harta mare de pe Google Maps, cu locatia magazinului.
+
+
+### Pagina de 
